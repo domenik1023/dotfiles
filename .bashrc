@@ -12,6 +12,9 @@ export EDITOR=vim
 export VISUAL=vim
 
 
+# LS Colors
+export LS_COLORS=$LS_COLORS:'di=0;35:'
+
 # Alias
 
 alias ls='ls --color=auto'
