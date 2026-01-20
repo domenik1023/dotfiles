@@ -43,7 +43,7 @@ button:hover {
 
 /* --- GROUPS --- */
 /* Group 1: Audio + Network */
-#pulseaudio, #network {
+#pulseaudio, #wireplumber, #network {
     background-color: rgba(133, 60, 182, 0.247);
     padding: 5px 10px;
     border-radius: 18px;

@@ -13,7 +13,7 @@ export VISUAL=vim
 
 
 # LS Colors
-export LS_COLORS='di=0;35:'
+export LS_COLORS=$LS_COLORS:'di=0;35:'
 
 # Alias
 
@@ -34,3 +34,5 @@ HISTFILESIZE=11000
 
 # Eval
 eval "$(starship init bash)"
+eval "$(zoxide init --cmd cd bash)"
+
